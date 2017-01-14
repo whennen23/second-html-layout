@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+
+
+
+.container {
+
+background-color: #black;
+position: relative;
+width: 100%;
+height: 100vh;
+}
+
+.column {
+position: relative;
+height: 100vh;
+width: 33%;
+float: left;
+margin: 0;
+}
+
+.left{
+  background-color: #4A90E2;
+}
+
+.middle {
+  background-color: #50E3C2;
+}
+
+.right{
+background-color: #B8E986;
+}
+
+footer {
+background: url("Image Placeholder.JPG") no-repeat center center;
+background-size: cover;
+position: relative;
+width: 100%;
+height: 20vh;
+top: 80vh;
+}
